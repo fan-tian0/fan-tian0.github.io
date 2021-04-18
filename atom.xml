@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Fan-Tian99</title>
+  
+  <subtitle>Fan-Tian</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://fan-tian0.github.io/"/>
+  <updated>2021-04-18T15:14:52.717Z</updated>
+  <id>https://fan-tian0.github.io/</id>
+  
+  <author>
+    <name>Tian Fan</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JsDeliver+githubpe配置cdn</title>
+    <link href="https://fan-tian0.github.io/2021/04/18/JsDeliver-githubpe%E9%85%8D%E7%BD%AEcdn/"/>
+    <id>https://fan-tian0.github.io/2021/04/18/JsDeliver-githubpe配置cdn/</id>
+    <published>2021-04-18T14:26:28.000Z</published>
+    <updated>2021-04-18T15:14:52.717Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h1 id=&quot;简介&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#简介&quot;&gt;&lt;/a&gt; 简介&lt;/h1&gt;
+&lt;h2 id=&quot;jsdelivr是什么&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="CDN" scheme="https://fan-tian0.github.io/categories/CDN/"/>
+    
+    
+      <category term="cdn" scheme="https://fan-tian0.github.io/tags/cdn/"/>
+    
+      <category term="github" scheme="https://fan-tian0.github.io/tags/github/"/>
+    
+      <category term="jsDeliver" scheme="https://fan-tian0.github.io/tags/jsDeliver/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://fan-tian0.github.io/2021/04/18/hello-world/"/>
+    <id>https://fan-tian0.github.io/2021/04/18/hello-world/</id>
+    <published>2021-04-17T19:07:25.996Z</published>
+    <updated>2021-04-17T19:07:25.996Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

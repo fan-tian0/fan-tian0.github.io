@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>JsDeliver+githubpe配置cdn</title>
+    <url>/2021/04/18/JsDeliver-githubpe%E9%85%8D%E7%BD%AEcdn/</url>
+    <content><![CDATA[<p>[TOC]</p>
+<h1 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h1>
+<h2 id="jsdelivr是什么"><a class="markdownIt-Anchor" href="#jsdelivr是什么"></a> jsDelivr是什么</h2>
+<p><a href="https://www.jsdelivr.com/">https://www.jsdelivr.com/</a><br>
+jsDelivr由ProspectOne维护的公共库，使用的融合CDN技术，由Cloudflare、Fastly、StackPath、QUANTIL等CDN供应商提供了全球超过750个CDN节点。<br>
+最重要的是，jsDelivr在中国大陆也拥有超过数百个节点，因为jsDelivr拥有正规的ICP备案，解决了中国大陆的访问速度优化，实现真正的全球极速低延迟体验。<br>
+jsDelivr是免费的、不限制带宽的，可以加速NPM、Github内的文件。</p>
+<h1 id="使用jsdeliver-github"><a class="markdownIt-Anchor" href="#使用jsdeliver-github"></a> 使用JsDeliver + gitHub</h1>
+<h2 id="1-新建github仓库"><a class="markdownIt-Anchor" href="#1-新建github仓库"></a> 1. 新建Github仓库</h2>
+<p><img src="/2021/04/18/JsDeliver-githubpe%E9%85%8D%E7%BD%AEcdn/picture/cnd/cdn01.png" alt="cdn01"></p>
+<h2 id="2上传资源"><a class="markdownIt-Anchor" href="#2上传资源"></a> 2.上传资源</h2>
+<p><img src="/2021/04/18/JsDeliver-githubpe%E9%85%8D%E7%BD%AEcdn/picture/cnd/cdn02.png" alt="cdn02"></p>
+<h2 id="3-点击-tags中的release发布仓库"><a class="markdownIt-Anchor" href="#3-点击-tags中的release发布仓库"></a> 3. 点击 tags中的release发布仓库</h2>
+<p><img src="/2021/04/18/JsDeliver-githubpe%E9%85%8D%E7%BD%AEcdn/picture/cnd/cdn03.png" alt="cdn03"></p>
+<h2 id="4通过jsdeliver加速访问资源"><a class="markdownIt-Anchor" href="#4通过jsdeliver加速访问资源"></a> 4.通过jsDeliver加速访问资源</h2>
+<p>直接使用引用的方法： <a href="https://cdn.jsdelivr.net/gh/github%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D/%E4%BB%93%E5%BA%93%E5%90%8D@%E7%89%88%E6%9C%AC%E5%8F%B7/%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84">https://cdn.jsdelivr.net/gh/github的用户名/仓库名@版本号/文件路径</a></p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre class=" language-hljs javascript">https:<span class="hljs-comment"><code class="language-hljs javascript">https:<span class="hljs-comment">//cdn.jsdelivr.net/gh/fan-tian0/cdn@1.2/picture/1.jpg</span><br></code></pre></td></tr></table></figure>
+<h2 id="5-使用jsdeliver的其他加速方法"><a class="markdownIt-Anchor" href="#5-使用jsdeliver的其他加速方法"></a> 5. 使用jsDeliver的其他加速方法</h2>
+<figure class="highlight javascript"><table><tr><td class="code"><pre class=" language-hljs javascript"><span class="hljs-comment">// 加载任何Github发布、提交或分支 </span><br><span class="hljs-comment">// user： github用户名 ， repo ：项目名 ， version： 分支名 ， file： 文件名</span><br>https:<span class="hljs-comment">//cdn.jsdelivr.net/gh/user/repo@version/file</span><br><br><span class="hljs-comment">// 使用版本范围而不是特定版本</span><br>https:<span class="hljs-comment">//cdn.jsdelivr.net/gh/fan-tian0/cdn@1.2/picture </span><br> <br><span class="hljs-comment">// 完全省略该版本以获取最新版本</span><br>https:<span class="hljs-comment">//cdn.jsdelivr.net/gh/fan-tian0/cdn/picture/0.jpg</span><br> <br><span class="hljs-comment">// 将“.min”添加到任何JS/CSS文件中以获取缩小版本，如果不存在，将为会自动生成</span><br>https:<span class="hljs-comment">//cdn.jsdelivr.net/gh/fan-tian0/cdn/vue.min.js</span><br> <br><span class="hljs-comment">// 在末尾添加 / 以获取资源目录列表</span><br>https:<span class="hljs-comment"><code class="language-hljs javascript"><span class="hljs-comment">// 加载任何Github发布、提交或分支 </span><br><span class="hljs-comment">// user： github用户名 ， repo ：项目名 ， version： 分支名 ， file： 文件名</span><br>https:<span class="hljs-comment">//cdn.jsdelivr.net/gh/user/repo@version/file</span><br><br><span class="hljs-comment">// 使用版本范围而不是特定版本</span><br>https:<span class="hljs-comment">//cdn.jsdelivr.net/gh/fan-tian0/cdn@1.2/picture </span><br> <br><span class="hljs-comment">// 完全省略该版本以获取最新版本</span><br>https:<span class="hljs-comment">//cdn.jsdelivr.net/gh/fan-tian0/cdn/picture/0.jpg</span><br> <br><span class="hljs-comment">// 将“.min”添加到任何JS/CSS文件中以获取缩小版本，如果不存在，将为会自动生成</span><br>https:<span class="hljs-comment">//cdn.jsdelivr.net/gh/fan-tian0/cdn/vue.min.js</span><br> <br><span class="hljs-comment">// 在末尾添加 / 以获取资源目录列表</span><br>https:<span class="hljs-comment">//cdn.jsdelivr.net/gh/fan-tian0/cdn/picture/</span><br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>CDN</category>
+      </categories>
+      <tags>
+        <tag>cdn</tag>
+        <tag>github</tag>
+        <tag>jsDeliver</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/04/18/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
+<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre class=" language-hljs bash">$ hexo new <span class="hljs-string"><code class="language-hljs bash">$ hexo new <span class="hljs-string">"My New Post"</span><br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre class=" language-hljs bash"><code class="language-hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre class=" language-hljs bash"><code class="language-hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre class=" language-hljs bash"><code class="language-hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
